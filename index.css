@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Bebas+Neue&display=swap');
+*{
+    margin:0;
+  
+}
+body{
+    background:black;
+    height:100vh;
+
+}
+
+
+.hero{
+   position: relative;
+ margin-top: 200px;
+   
+}
+
+.container{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50px,-50px);
+    top:50%;
+    left:29%;
+    margin-left: 20vh;
+    height:30vh;
+    width:65vh;
+    background: #000000;
+    border:5px  solid #fff;
+    border-radius: 20px;
+    word-wrap:break-word ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-box-reflect: below  10px linear-gradient(transparent,rgba(255, 255, 255, 0.178));
+    
+}
+h1{
+  
+  
+    font-size: 65px;
+   margin-left: 1vh;
+   margin-top: 6vh;
+   font-family: "Bebas Neue", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+}
+.pro_name{
+    text-align: center;
+   font-family: 'Baskervville SC';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+}
+
+.container h1{
+    color: rgb(255, 255, 255);
+ 
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+      
+    
+}
+.container:hover{
+    background:#16a7a7 ;
+    box-shadow: 5px 5px 5px 2px #038f8f67;
+    border-color: #00ffff;
+}
+p{
+    color:#00ffff;
+    font-size: 35px;
+  
+}
+#project{
+    color:red;
+    background-color: black;
+    width:25vh;
+    height:5vh;
+    font-size: 20px;
+}
+#time{
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    
+}
+
+
+#dayname{
+    color:#ffffff;
+    font-size: 25px;
+    word-spacing: 10px;
+    text-align: center;
+  padding-top: 20px;
+    
+    
+}
